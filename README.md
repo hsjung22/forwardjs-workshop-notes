@@ -1,6 +1,19 @@
 # Forwardjs workshop notes
 
-Notes from "Object Oriented Programming with Javascript" by Elie Schoppik
+*Notes from "Object Oriented Programming with Javascript" by Elie Schoppik*
+
+## Table of Contents
+  1. [Intro](#intro)
+  1. [Closure](#closure)
+  1. [Implicit binding](#implicit binding)
+  1. [Explicit binding](#explicit binding)
+  1. [Call](#call)
+  1. [Apply](#apply)
+  1. [Bind](#bind)
+  1. [New](#new)
+
+
+## Intro
 
   When a function is invoked, two variables get created automatically `this` and `arguments`.
 
@@ -436,9 +449,9 @@ function.bind(thisArg, arg1, arg2, ...)
     The constructor function is called with the `new` keyword.
 
     1. creates a new empty object
-    2. sets `this` to be that new object just created
-    3. implicitly returns `this`
-    4. internal link gets created between the object and the prototype property on the constructor function. This link is accessible through `__proto__`
+    1. sets `this` to be that new object just created
+    1. implicitly returns `this`
+    1. internal link gets created between the object and the prototype property on the constructor function. This link is accessible through `__proto__`
 
     ```javascript
     var elie = new Person("Elie")
