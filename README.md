@@ -2,7 +2,7 @@
 
 Notes from "Object Oriented Programming with Javascript" by Elie Schoppik
 
-  When a function is invoked, two variables get created automatically 'this' and 'arguments'.
+  When a function is invoked, two variables get created automatically `this` and `arguments`.
 
   ```javascript
   function first() {
@@ -113,7 +113,7 @@ Closure is when a function has access to the scope of its outer function that ha
 
 ## Implicit binding
 
-'this' gets assigned to the closest 'parent' object.
+`this` gets assigned to the closest 'parent' object.
 
   - Example 1
 
@@ -184,7 +184,7 @@ Closure is when a function has access to the scope of its outer function that ha
 
 Immediately invokes the function it is attached to.
 `thisArg` is used to explicitly set the value of keyword `this`.
-The arg1, arg2, ... parameters of call are the parameters of the `function` that is immediately invoked
+The `arg1, arg2, ...` parameters of call are the parameters of the `function` that is immediately invoked
 
 Syntax:
 ```javascript
@@ -219,8 +219,8 @@ function.call(thisArg, arg1, arg2, ...)
     // 'this' inside sayHi function now refers to 'instructor2'
     ```
 
-    We can separate out the sayHi function from instructor variable.
-    This makes sayHi function available to any object that has a firstName.
+    We can separate out the `sayHi` function from instructor variable.
+    This makes `sayHi` function available to any object that has a firstName.
 
     ```javascript
     var instructor = {
@@ -330,7 +330,7 @@ function.apply(thisArg, [argsArray])
 
 ### bind
 
-Same with `call`, `thisArg` is used to explicitly set the value of keyword `this`. The arg1, arg2, ... are arguments to prepend to arguments given to the bound `function`. The big difference is that bind returns a function. Which means it is not immediately invoked like `call` or `apply`.
+Same with `call`, `thisArg` is used to explicitly set the value of keyword `this`. The `arg1, arg2, ...` are arguments to prepend to arguments given to the bound `function`. The big difference is that bind returns a function. Which means it is not immediately invoked like `call` or `apply`.
 
 Syntax:
 ```javascript
