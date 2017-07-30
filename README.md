@@ -5,8 +5,8 @@
 ## Table of Contents
   1. [Intro](#intro)
   1. [Closure](#closure)
-  1. [Implicit binding](#implicit binding)
-  1. [Explicit binding](#explicit binding)
+  1. [Implicit binding](#implicit-binding)
+  1. [Explicit binding](#explicit-binding)
   1. [Call](#call)
   1. [Apply](#apply)
   1. [Bind](#bind)
